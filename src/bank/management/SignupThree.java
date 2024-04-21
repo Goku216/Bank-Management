@@ -206,6 +206,9 @@ public class SignupThree extends JFrame implements ActionListener {
                 
                 con.executeQuery(query);
                 con.executeQuery(query2);
+                
+                setVisible(false);
+                new Login();
 
                 
             
